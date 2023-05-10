@@ -1,0 +1,10 @@
+runtime: go116
+
+handlers:
+- url: /albums
+  script: auto
+- url: /albums/.*
+  script: auto
+- url: /.*
+  script: auto
+
